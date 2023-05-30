@@ -1,4 +1,6 @@
-# Comandos GIT
+# Comandos GIT 📖
+Curso GIT e GIT-HUB 
+link: https://www.udemy.com/course/git-e-github-para-iniciantes
 
 Comando para inicializar um repositorio
 ```
@@ -10,7 +12,7 @@ git status
 ```
 Comando para explorar o historico de um repositorio
 ```
-git status
+git log
 ```
 Comando para adicionar um origin para o repositório se não existe nenhum
 ```
@@ -35,4 +37,24 @@ git commit -m ""
 Comando para mostrar o diretorio
 ```
 ls -la
+```
+Comando para clonar repositorio
+```
+g clone "link/chave" github-"nome"-clone
+```
+Comando para criar um branch
+```
+git checkout --b "nome"
+```
+Comando para mostrar os branch existentes
+```
+git branch
+```
+Comando para trocar de branch
+```
+git checkout "nome"
+```
+Comando para deletar um branch
+```
+git branch -D "nome"
 ```
