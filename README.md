@@ -58,3 +58,32 @@ Comando para deletar um branch
 ```
 git branch -D "nome"
 ```
+Comando para criar merge
+```
+git merge "branch"
+```
+Comando para criar rebase
+```
+git rebase "branch"
+```
+Comando gitignore
+```
+vi .gitignore
+```
+
+Comando para guardar modificações sem commitar com git stash
+```
+git stash
+```
+Para aplicar as mudanças com stash
+```
+git stash apply
+```
+Mostrar lista de git stash
+```
+git stash list
+```
+Limpar tudo que esta no stash
+```
+git stash clear
+```
