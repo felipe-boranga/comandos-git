@@ -95,3 +95,15 @@ Comando para subir as tag
 ```
 git push origin master --tags
 ```
+Comando para reverter alterações do commit
+```
+git revert "serial do commit"
+```
+Comando para ver um commit
+```
+git show
+```
+Comando para apagar tags e branches repositorio remoto
+```
+git push origin:
+```
