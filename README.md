@@ -10,13 +10,17 @@ Exibe as condições do diretório de trabalho e da área de staging
 ```
 git status
 ```
-Comando para explorar o historico de um repositorio
+Comando para explorar o historico de commits de um repositorio
 ```
 git log
 ```
-Comando para adicionar um origin para o repositório se não existe nenhum
+Comando para adicionar um determinado arquivo para ser commitado
 ```
 git add
+```
+Comando para fazer o commit
+```
+git commit -m "alguma mensagem"
 ```
 Comando para enviar o conteúdo do repositório local para um repositório remoto
 ```
@@ -30,10 +34,7 @@ Comando para ver o repositório remoto
 ```
 git remote -v
 ```
-Comando para fazer o commit
-```
-git commit -m ""
-```
+
 Comando para mostrar o diretorio
 ```
 ls -la
