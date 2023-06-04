@@ -87,3 +87,11 @@ Limpar tudo que esta no stash
 ```
 git stash clear
 ```
+Comando para colocar tag 
+```
+git tag -a suaversão -m "mensagem"
+```
+Comando para subir as tag
+```
+git push origin master --tags
+```
