@@ -68,7 +68,7 @@ git rebase "branch"
 ```
 Comando gitignore
 ```
-vi .gitignore
+.gitignore
 ```
 
 Comando para guardar modificações sem commitar com git stash
