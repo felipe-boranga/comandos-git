@@ -16,7 +16,7 @@ git log
 ```
 Comando para adicionar um determinado arquivo para ser commitado
 ```
-git add
+git add nome do arquivo ou . para adicionar tudo
 ```
 Comando para fazer o commit
 ```
@@ -24,28 +24,27 @@ git commit -m "alguma mensagem"
 ```
 Comando para enviar o conteúdo do repositório local para um repositório remoto
 ```
-git push origin
+git push origin nome da branch remoto
 ```
 Comando para altera uma URL do repositório remoto existente
 ```
-git remote set-url 
+git remote set-url "link da url"
 ```
 Comando para ver o repositório remoto
 ```
 git remote -v
 ```
-
-Comando para mostrar o diretorio
+Comando para mostrar o diretorio(Linux)
 ```
 ls -la
 ```
-Comando para clonar repositorio
+Comando para clonar um repositorio
 ```
-g clone "link/chave" github-"nome"-clone
+git clone "link do repositorio remoto" -clone
 ```
 Comando para criar um branch
 ```
-git checkout --b "nome"
+git checkout -b "nome da branch"
 ```
 Comando para mostrar os branch existentes
 ```
@@ -53,30 +52,33 @@ git branch
 ```
 Comando para trocar de branch
 ```
-git checkout "nome"
+git checkout "nome da branch"
 ```
-Comando para deletar um branch
+Comando para deletar um branch do repositorio local
 ```
-git branch -D "nome"
+git branch -D "nome da branch"
 ```
-Comando para criar merge
+Comando para deletar um branch do repositorio remoto
 ```
-git merge "branch"
+git push origin :nome da branch
 ```
-Comando para criar rebase
+Comando para levar um codigo de uma branch para outra
 ```
-git rebase "branch"
+git merge "nome da branch origin"
 ```
-Comando gitignore
+Comando para mergear não mantendo o historico
 ```
-.gitignore
+git rebase "nome da branch origin"
 ```
-
+Arquivo gitignore para ignorar arquivos que não deseja commitar ou salvar no git
+```
+arquivo .gitignore
+```
 Comando para guardar modificações sem commitar com git stash
 ```
 git stash
 ```
-Para aplicar as mudanças com stash
+Comando para voltar as modificações que foram salvas na stash
 ```
 git stash apply
 ```
