@@ -104,9 +104,6 @@ git revert "serial do commit"
 ```
 Comando para ver um commit
 ```
-git show
+git show "serial do commit"
 ```
-Comando para apagar tags e branches repositorio remoto
-```
-git push origin:
-```
+
